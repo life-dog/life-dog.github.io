@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>阿里云CDN教程</title>
+      <link href="/2020/03/08/cdn-jiao-cheng/"/>
+      <url>/2020/03/08/cdn-jiao-cheng/</url>
+      
+        <content type="html"><![CDATA[<h1 id="阿里云CDN教程"><a href="#阿里云CDN教程" class="headerlink" title="阿里云CDN教程"></a>阿里云CDN教程</h1><h2 id="一、是什么"><a href="#一、是什么" class="headerlink" title="一、是什么"></a>一、是什么</h2><ol><li>阿里云内容分发网络（Alibaba Cloud Content Delivery Network，简称CDN）将您源站资源缓存至阿里云遍布全球的加速节点上。当终端用户请求访问和获取这些资源时，无需回源，系统将就近调用CDN节点上已经缓存的资源。<strong>CDN可以将源站内容分发至最接近用户的节点，使用户可就近取得所需内容，提高用户访问的响应速度和成功率</strong>。通俗一点讲什么是CDN，简单一点理解就是一个中转站，在给网站主提供一定的方便，用户也可以享受到一定的方便，在提高打开网站和访问速度上面都有大大的提升，使用CDN的好处显而易见。<strong>简单打个比方</strong>，我们常喜欢在京东上买东西，今天下单明天就能送到。而在淘宝上，我们享受不到这样的速度。为什么呢？因为京东的物流体系完善。假设你在上海购买了海南的一件商品，淘宝走快递可能要走3天才到你手上，但是京东在全国设有仓库物流点，从就近的杭州发货点发货到上海，一天就可以到。</li></ol><p><img src="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/1111.jpg" alt="img"></p><h2 id="二、网站为什么访问过慢"><a href="#二、网站为什么访问过慢" class="headerlink" title="二、网站为什么访问过慢"></a>二、网站为什么访问过慢</h2><ol><li>共享主机服务器不堪重负，响应速度慢；</li><li>网站的图片和内容太大，需要花费很多时间下载；</li><li>网站使用了太多不同的脚本和图片，这些脚本和图片没有针对快速加载网站进行优化，加载时间长；</li><li>网站的服务器位置与您网站的访问者位于不同的地理位置。</li></ol><h2 id="三、如何解决网站访问过慢？"><a href="#三、如何解决网站访问过慢？" class="headerlink" title="三、如何解决网站访问过慢？"></a>三、如何解决网站访问过慢？</h2><ol><li>选择可靠的云服务商</li><li>优化网站图片和代码</li><li>使用CDN加速服务</li></ol><h2 id="四、使用CDN好处"><a href="#四、使用CDN好处" class="headerlink" title="四、使用CDN好处"></a>四、使用CDN好处</h2><ol><li>网站加速，利于搜索引擎排名</li><li>有利于提高网站的转化率</li><li>提升网站的稳定性和安全性</li></ol><h2 id="五、入门概述"><a href="#五、入门概述" class="headerlink" title="五、入门概述"></a>五、<a href="https://help.aliyun.com/document_detail/27112.html?spm=a2c4g.11174283.6.577.414070358V9DJS" target="_blank" rel="noopener">入门概述</a></h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> CDN教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git使用教程</title>
       <link href="/2020/03/07/git-jiao-cheng/"/>
       <url>/2020/03/07/git-jiao-cheng/</url>
