@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo+github搭建博客教程, Mr.Chen">
+    <meta name="keywords" content="CSS实现水平垂直居中的1010种方式, Mr.Chen">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hexo+github搭建博客教程 | Mr.Chen</title>
+    <title>CSS实现水平垂直居中的1010种方式 | Mr.Chen</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -306,12 +306,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/hexo-cssCenter.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo+github搭建博客教程</h1>
+                    <h1 class="description center-align post-title">CSS实现水平垂直居中的1010种方式</h1>
                 </div>
             </div>
         </div>
@@ -432,8 +432,8 @@
                                 <span class="chip bg-color">Hexo</span>
                             </a>
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                <span class="chip bg-color">博客搭建</span>
+                            <a href="/tags/CSS%E6%95%99%E7%A8%8B/">
+                                <span class="chip bg-color">CSS教程</span>
                             </a>
                         
                     </div>
@@ -444,8 +444,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                Hexo博客
+                            <a href="/categories/Web%E5%89%8D%E7%AB%AF/" class="post-category">
+                                Web前端
                             </a>
                         
                     </div>
@@ -457,28 +457,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-07
+                    2020-03-17
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-03-19
+                    2020-04-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    430
+                    1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -494,42 +494,240 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Hexo-github搭建"><a href="#Hexo-github搭建" class="headerlink" title="Hexo+github搭建"></a>Hexo+github搭建</h1><h2 id="1、安装node-js"><a href="#1、安装node-js" class="headerlink" title="1、安装node.js"></a>1、安装node.js</h2><p>因为hexo是用node生成的，基于node集成的，所以需要先安装node.js<br>1.1.检查node版本信息<br>node -v<br>1.2检查npm版本信息<br>npm -v</p>
-<h2 id="2、安装hexo框架"><a href="#2、安装hexo框架" class="headerlink" title="2、安装hexo框架"></a>2、安装hexo框架</h2><p>2.1安装cnpm<br>(由于国内的镜像源安装比较慢，所以先利用npm安装淘宝的镜像源cnpm)<br>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>2.2检查cnpm版本信息<br>cnpm -v<br>2.3安装hexo<br>cnpm install -g hexo-cli<br>2.4检查hexo版本信息<br>hexo -v</p>
-<h2 id="3、使用hexo搭建个人博客"><a href="#3、使用hexo搭建个人博客" class="headerlink" title="3、使用hexo搭建个人博客"></a>3、使用hexo搭建个人博客</h2><p>3.1在指定的位置新建一个文件夹blog<br>mkdir blog<br>3.2查看路径<br>pwd</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard.png" alt="img"></p>
-<p>3.3使用hexo生成目录<br>hexo init</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard1.png" alt="img"></p>
-<p>3.4查看该目录下生成了哪些东西<br>ls -l</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard2.png" alt="img"></p>
-<p>3.5启动hexo<br>hexo s</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/start.png" alt="img"></p>
-<p>3.6新建一篇文章<br>hexo n “my article”</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/newFiles.png" alt="img"></p>
-<p>3.7进入到_posts/目录用vim编辑文章<br>vim 我的第一篇博客.md<br>3.8清除一下hexo<br>hexo clean</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard13.png" alt="img"></p>
-<p>3.9重新生成hexo<br>hexo g</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/general.png" alt="img"></p>
-<p>3.10 重新启动hexo<br>hexo s</p>
-<h2 id="4、部署到Github上面"><a href="#4、部署到Github上面" class="headerlink" title="4、部署到Github上面"></a>4、部署到Github上面</h2><p>4.1新建一个仓库<br>仓库命名一定要符合要求才行，github用户名.github.io</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard4.png" alt="img"></p>
-<p>4.2安装git的部署插件<br>cnpm install –save hexo-deployer-git</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard5.png" alt="img"></p>
-<p>4.3设置_config.yml文件</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard6.png" alt="img"></p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard7.png" alt="img"></p>
-<p>4.4部署到远端<br>hexo d</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard8.png" alt="img"></p>
-<h2 id="5、更换博客主题"><a href="#5、更换博客主题" class="headerlink" title="5、更换博客主题"></a>5、更换博客主题</h2><p>5.1主题地址<br>github.com/litten/hexo-theme-yilia</p>
-<p>5.2下载主题<br>git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard9.png" alt="img"></p>
-<p>5.3进入到themes目录</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard10.png" alt="img"></p>
-<p>5.4回到上一层配置_config.yml文件</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard11.png" alt="img"></p>
-<p>5.5clean一下hexo<br>hexo clean<br>5.6重新生成hexo<br>hexo g<br>5.7启动hexo<br>hexo s<br>5.8推送到远端<br>hexo d</p>
-<p><img src="./images/loading.gif" data-original="https://raw.githubusercontent.com/life-dog/blogImgs/master/img/clipboard12.png" alt="img"></p>
-<h2 id="个人博客网站"><a href="#个人博客网站" class="headerlink" title="个人博客网站"></a>个人博客网站</h2><p><a href="https://life-dog.github.io/">https://life-dog.github.io/</a></p>
+                <h1 id="CSS实现水平垂直居中的1010种方式"><a href="#CSS实现水平垂直居中的1010种方式" class="headerlink" title="CSS实现水平垂直居中的1010种方式"></a>CSS实现水平垂直居中的1010种方式</h1><h2 id="一、仅居中元素定宽高适用"><a href="#一、仅居中元素定宽高适用" class="headerlink" title="一、仅居中元素定宽高适用"></a>一、仅居中元素定宽高适用</h2><ol>
+<li><code>absolute</code> + 负<code>margin</code></li>
+<li><code>absolute</code> + <code>margin auto</code></li>
+<li><code>absolute</code> + <code>calc</code></li>
+</ol>
+<h2 id="二、居中元素不定宽高"><a href="#二、居中元素不定宽高" class="headerlink" title="二、居中元素不定宽高"></a>二、居中元素不定宽高</h2><ol>
+<li><code>absolute</code> + <code>transform</code></li>
+<li><code>flex</code></li>
+<li><code>table</code></li>
+<li><code>writing-mode</code></li>
+<li><code>css-table</code></li>
+<li><code>lineheight</code></li>
+<li><code>grid</code></li>
+</ol>
+<h2 id="三、定宽高代码实现"><a href="#三、定宽高代码实现" class="headerlink" title="三、定宽高代码实现"></a>三、定宽高代码实现</h2><ol>
+<li><strong>公共代码</strong></li>
+</ol>
+<pre><code>HTML结构:
+&lt;body&gt;
+&lt;div class="father"&gt;
+    &lt;div class="son box"&gt;子盒子&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+CSS样式:
+&lt;style&gt;
+        .father {
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+        }
+
+        .son {
+            background-color: blue;
+        }
+
+        /*css中两个类选择器之间没有空格形成多类选择器， 有空格形成后代选择器*/
+        .son.box {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+&lt;/style&gt;</code></pre><ol start="2">
+<li><strong><code>absolute</code> + 负<code>margin</code></strong></li>
+</ol>
+<pre><code>/*`absolute` + 负`margin`*/
+        .father {
+            position: relative;
+        }
+
+        .son {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -50px;
+        }</code></pre><ol start="3">
+<li><strong><code>absolute</code> + <code>margin auto</code></strong></li>
+</ol>
+<pre><code>/*`absolute` + `margin auto`*/
+        .father {
+            position: relative;
+        }
+
+        .son {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        /*这种方法兼容性也很好，缺点是需要知道子元素的宽高*/</code></pre><ol start="4">
+<li><strong><code>absolute</code> + <code>calc</code></strong></li>
+</ol>
+<pre><code>/*`absolute` + `calc`*/
+        .father {
+            position: relative;
+        }
+
+        .son {
+            position: absolute;
+            /*css3带来了计算属性，既然top的百分比是基于元素的左上角，那么在减去宽度的一半就好了*/
+            top: calc(50% - 50px);
+            left: calc(50% - 50px);
+        }
+     /*这种方法兼容性依赖calc的兼容性，缺点是需要知道子元素的宽高*/</code></pre><h2 id="四、不定宽高代码实现"><a href="#四、不定宽高代码实现" class="headerlink" title="四、不定宽高代码实现"></a>四、不定宽高代码实现</h2><ol>
+<li><strong>公共代码</strong></li>
+</ol>
+<pre><code>HTML结构:
+&lt;body&gt;
+&lt;div class="father"&gt;
+    &lt;div class="son"&gt;子盒子&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+CSS样式:
+&lt;style&gt;
+        .father {
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+        }
+
+        .son {
+            background-color: blue;
+        }
+
+        /*css中两个类选择器之间没有空格形成多类选择器， 有空格形成后代选择器*/
+        .son.box {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+&lt;/style&gt;</code></pre><ol start="2">
+<li><strong><code>absolute</code> + <code>transform</code></strong></li>
+</ol>
+<pre><code>/*`absolute` + `transform`*/
+        .father {
+            position: relative;
+        }
+
+        .son {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        /*这种方法兼容性依赖translate2d的兼容性*/</code></pre><ol start="3">
+<li><strong><code>flex</code></strong></li>
+</ol>
+<pre><code>/*`flex`*/
+        .father {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+/*目前在移动端已经完全可以使用flex，PC端需要看自己业务的兼容性情况*/</code></pre><ol start="4">
+<li><strong><code>table</code></strong></li>
+</ol>
+<pre><code>&lt;!--table不定宽高HTML代码--&gt;
+&lt;table&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class="father"&gt;
+            &lt;div class="son"&gt;123123&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+/*`table`*/
+        .father {
+            text-align: center;
+        }
+
+        .son {
+            display: inline-block;
+        }
+        /*table单元格中的内容天然就是垂直居中的，只要添加一个水平居中属性就好了.这种方法就是代码太冗余，而且也不是table的正确用法*/</code></pre><ol start="5">
+<li><strong><code>writing-mode</code></strong></li>
+</ol>
+<pre><code>HTML结构:
+&lt;div class="wp"&gt;
+    &lt;div class="wp-inner"&gt;
+        &lt;div class="box"&gt;123123&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+/* 定位代码 */
+.wp {
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+.wp-inner {
+    writing-mode: horizontal-tb;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.box {
+    display: inline-block;
+    margin: auto;
+    text-align: left;
+}</code></pre><ol start="6">
+<li><strong><code>css-table</code></strong></li>
+</ol>
+<pre><code>/*`css-table`*/
+        .father {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .son {
+            display: inline-block;
+        }
+        /*css新增的table属性，可以让我们把普通元素，变为table元素的现实效果，通过这个特性也可以实现水平垂直居中,这种方法和table一样的原理，但却没有那么多冗余代码，兼容性也还不错*/</code></pre><ol start="7">
+<li><strong><code>lineheight</code></strong></li>
+</ol>
+<pre><code>/*`line-height`*/
+        .father {
+            line-height: 300px;
+            text-align: center;
+            font-size: 0px;
+        }
+
+        .son {
+            font-size: 16px;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: initial;
+            text-align: left;
+        }
+
+/*利用行内元素居中属性也可以做到水平垂直居中,把box设置为行内元素，通过text-align就可以做到水平居中，但很多同学可能不知道通过通过vertical-align也可以在垂直方向做到居中,这种方法需要在子元素中将文字显示重置为想要的效果*/</code></pre><ol start="8">
+<li><strong><code>grid</code></strong></li>
+</ol>
+<pre><code>/*`grid`*/
+        .father {
+            display: grid;
+        }
+
+        .son {
+            align-self: center;
+            justify-self: center;
+        }
+
+/*css新出的网格布局，由于兼容性不太好，一直没太关注，通过grid也可以实现水平垂直居中,代码量也很少，但兼容性不如flex，不推荐使用*/</code></pre><h2 id="五、总结"><a href="#五、总结" class="headerlink" title="五、总结"></a>五、总结</h2><ul>
+<li>PC端有兼容性要求，宽高固定，推荐<code>absolute + 负margin</code></li>
+<li>PC端有兼容要求，宽高不固定，推荐<code>css-table</code></li>
+<li>PC端无兼容性要求，推荐<code>flex</code></li>
+<li>移动端推荐使用<code>flex</code></li>
+</ul>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -573,7 +771,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://life-dog.github.io/2020/03/07/bo-ke-jiao-cheng/">https://life-dog.github.io/2020/03/07/bo-ke-jiao-cheng/</a>
+                    <a href="https://life-dog.github.io/2020/03/17/css-shi-xian-shui-ping-chui-zhi-ju-zhong-de-1010-chong-fang-shi/">https://life-dog.github.io/2020/03/17/css-shi-xian-shui-ping-chui-zhi-ju-zhong-de-1010-chong-fang-shi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -615,8 +813,8 @@
                                     <span class="chip bg-color">Hexo</span>
                                 </a>
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                    <span class="chip bg-color">博客搭建</span>
+                                <a href="/tags/CSS%E6%95%99%E7%A8%8B/">
+                                    <span class="chip bg-color">CSS教程</span>
                                 </a>
                             
                         </div>
@@ -1045,28 +1243,83 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/03/07/git-jiao-cheng/">
+                <a href="/2020/03/17/css-shi-xian-shui-ping-chui-zhi-ju-zhong-de-1010-chong-fang-shi/">
                     <div class="card-image">
                         
-                        <img src="./images/loading.gif" data-original="/images/hexo-git.jpg" class="responsive-img" alt="Git使用教程">
+                        <img src="./images/loading.gif" data-original="/images/hexo-cssCenter.jpg" class="responsive-img" alt="CSS实现水平垂直居中的1010种方式">
                         
-                        <span class="card-title">Git使用教程</span>
+                        <span class="card-title">CSS实现水平垂直居中的1010种方式</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            最详细、最傻瓜、最浅显、真正手把手教！
+                            CSS实现水平垂直居中的1010种方式（史上最全）
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-07
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-17
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Web%E5%89%8D%E7%AB%AF/" class="post-category">
+                                    Web前端
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
+                    </a>
+                    
+                    <a href="/tags/CSS%E6%95%99%E7%A8%8B/">
+                        <span class="chip bg-color">CSS教程</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/03/09/linux-ming-ling-jiao-cheng/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="./images/loading.gif" data-original="/medias/featureimages/19.jpg" class="responsive-img" alt="Linux常用命令">
+                        
+                        <span class="card-title">Linux常用命令</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            你一定要知道的这些Linux常用命令[非常详细]
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-09
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1086,62 +1339,8 @@
                         <span class="chip bg-color">Hexo</span>
                     </a>
                     
-                    <a href="/tags/Git%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">Git教程</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/03/07/bo-ke-jiao-cheng/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="./images/loading.gif" data-original="/medias/featureimages/15.jpg" class="responsive-img" alt="Hexo+github搭建博客教程">
-                        
-                        <span class="card-title">Hexo+github搭建博客教程</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Hexo+github搭建博客教程,简单又快捷
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-07
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">博客搭建</span>
+                    <a href="/tags/Linux%E5%91%BD%E4%BB%A4/">
+                        <span class="chip bg-color">Linux命令</span>
                     </a>
                     
                 </div>
